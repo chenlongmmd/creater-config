@@ -1,0 +1,20 @@
+spring:
+   datasource:
+    dynamic:
+      primary: game
+      datasource:
+        game:
+          username: root
+          password: rootroot
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost/game
+        player:
+          username: root
+          password: rootroot
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost/player
+        team:
+          username: root
+          password: rootroot
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost/team
