@@ -18,3 +18,5 @@ spring:
           password: rootroot
           driver-class-name: com.mysql.cj.jdbc.Driver
           url: jdbc:mysql://localhost/team
+logging:
+  config: classpath:log4j2.xml
